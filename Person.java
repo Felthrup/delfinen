@@ -14,7 +14,8 @@ public class Person
       
       this.birthdate = LocalDate.of(year, month, date);
    }
-
+   
+   //Getters og setters
    public void setName(String name)
    {
       this.name = name;
@@ -45,6 +46,7 @@ public class Person
       return this.birthdate;
    }
    
+   //Obligatoriske metoder
    public String toString()
    {
       return("Name: " + name + "\nAddress: " + address + "\nBirthdate: " 
